@@ -1,0 +1,32 @@
+# Build outputs
+build/
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+uv.lock
+
+# DLL
+*.dll
+
+# Test results
+vm_test_result.txt
+*_test_result.txt
+low_spec_test_result.txt
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

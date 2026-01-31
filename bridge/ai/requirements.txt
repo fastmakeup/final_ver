@@ -1,0 +1,30 @@
+# 공공기관 인수인계 RAG 시스템 - 로컬 클라이언트 의존성
+# pip install -r requirements_local.txt
+
+# OpenAI API 클라이언트 (vLLM 서버 연결용)
+openai>=1.0.0
+
+# ChromaDB (벡터 DB)
+chromadb>=0.4.0
+
+# 한국어 임베딩
+sentence-transformers>=2.2.0
+
+# 하이브리드 검색 (BM25)
+rank-bm25>=0.2.2
+
+# 문서 파싱
+pypdf>=3.0.0
+python-docx>=0.8.11
+pandas>=1.5.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# HWP 파싱
+olefile>=0.46
+
+# 기타
+numpy>=1.24.0
+
+# LangGraph (워크플로우)
+langgraph>=0.0.20

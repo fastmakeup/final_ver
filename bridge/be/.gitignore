@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment (uv)
+.venv/
+venv/
+ENV/
+env/
+
+# uv specific
+.uv/
+uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+pdf_extracted_text.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 테스트 문서 제외
+resources/dummy_hwp/*.hwp
+resources/dummy_hwp/*.hwpx
+resources/dummy_hwp/*.pdf
+resources/dummy_hwp/*.txt
